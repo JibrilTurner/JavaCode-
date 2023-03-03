@@ -1,0 +1,33 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0x00007fe724e72401, pid=2525, tid=2552
+#
+# JRE version: OpenJDK Runtime Environment (11.0.9.1+1) (build 11.0.9.1+1-Ubuntu-0ubuntu1.18.04)
+# Java VM: OpenJDK 64-Bit Server VM (11.0.9.1+1-Ubuntu-0ubuntu1.18.04, mixed mode, sharing, tiered, compressed oops, g1 gc, linux-amd64)
+# Problematic frame:
+# C  [libjimage.so+0x2401]
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/share/apport/apport %p %s %c %d %P %E" (or dumping to /home/runner/Conditionals-JIBRILTURNER/core.2525)
+#
+# If you would like to submit a bug report, please visit:
+#   https://bugs.launchpad.net/ubuntu/+source/openjdk-lts
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: Main
+
+Host: Intel(R) Xeon(R) CPU @ 2.30GHz, 4 cores, 2G, Ubuntu 18.04.5 LTS
+Time: Tue Jan 12 16:32:23 2021 UTC elapsed time: 15.048226 seconds (0d 0h 0m 15s)
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x00007fe6a0001000):  JavaThread "XToolkt-Shutdown-Thread" [_thread_in_vm, id=2552, stack(0x00007fe6c5a0b000,0x00007fe6c5b0c000)]
+
+Stack: [0x00007fe6c5a0b000,0x00007fe6c5b0c000],  sp=0x00007fe6c5b09060,  free space=1016k
+Native frames: (J=compiled Java code, A=aot compiled Java code, j=interpreted, Vv=VM code, C=native code)
+C  [libjimage.so+0x2401]
+C  [libjimage.so+0x30ea]
+C  [libjimage.so+0x35c6]  JIMAGE_FindResource+0xd6
+V  [libjvm.so+0x5bf44e]

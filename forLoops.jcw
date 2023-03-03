@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<workspace>
+	<settings>
+		<label>forLoops</label>
+		<id>38</id>
+		<version>0</version>
+	</settings>
+	<users>
+		<user>
+			<path>forLoops.jcu</path>
+		</user>
+	</users>
+	<projects>
+		<project>
+			<path>forLoops.jcp</path>
+		</project>
+	</projects>
+</workspace>

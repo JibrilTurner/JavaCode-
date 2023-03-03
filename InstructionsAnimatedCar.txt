@@ -1,0 +1,12 @@
+Lab Goal : This lab was designed to teach you how to use if statements in Java. Look at the sample program, Animation.java in your labs_conditionals folder for help with this lab. The starting file is AnimatedCar.java
+
+Lab Description : 
+80 points: Draw some type of car on the screen and then move that car across the screen over and over
+again. Every time the timer fires, it will call the paint method. In the paint method, after drawing your car, increase the value of the x coordinate by 50 pixels so the car will be drawn in a new location the next time paint is called. If the value of x reaches or exceeds the right side of the window, reset it back to zero. You can use the getWidth() method in the condition of the if statement.
+
+100 points : Add an if statement to increment the y variable so the car will move down the screen every time the x value is reset to 0. You will need to add another if statement to reset y to 50 once you reach the bottom of the screen – use
+getHeight().
+
+NOTE: I HIGHLY RECOMMEND START BY MAKING THE SQUARE GIVEN TO MOVE IN THE DIRECTION
+YOU ARE ASKED FOR YOUR CAR TO MOVE, THEN ADD THE DETAIL TO IT TO MAKE IT LOOK LIKE A
+CAR. An example of what square code may look like is page.fillRect(90+x, 90+y, 50,60)

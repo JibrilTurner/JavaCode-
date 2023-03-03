@@ -1,0 +1,7 @@
+H:\CompSci_1\stuShare\labs_conditionals\AnimatedCar.java
+H:\CompSci_1\stuShare\labs_conditionals\Animation.java
+H:\CompSci_1\stuShare\labs_conditionals\GraphicsRunner.java
+H:\CompSci_1\stuShare\labs_conditionals\IfOne.java
+H:\CompSci_1\stuShare\labs_conditionals\IfPractice.java
+H:\CompSci_1\stuShare\labs_conditionals\IfString.java
+H:\CompSci_1\stuShare\labs_conditionals\RandomDrawing.java
